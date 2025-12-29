@@ -1,0 +1,24 @@
+project/
+├── index.php              # Router
+├── config.php             # Configuration
+├── functions.php          # Helper functions
+├── payment_checker.php    # Background checker
+├── .htaccess             # Apache rules
+├── api/                  # API endpoints
+│   ├── check_payment_status.php
+│   ├── check_mlbb_nickname.php
+│   └── verify_roblox_username.php
+├── pages/                # Page handlers
+│   ├── game.php
+│   ├── mlbb_topup.php
+│   ├── freefire_topup.php
+│   ├── roblox_topup.php
+│   └── receipt.php
+├── templates/            # HTML templates
+│   ├── game.html
+│   ├── mlbb_topup.html
+│   ├── mlbb_qrcode.php
+│   └── receipt.html
+└── static/              # Assets
+    ├── images/
+    └── css/
